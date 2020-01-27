@@ -1,0 +1,34 @@
+[
+  {
+    "name": "kantipur FM",
+    "stream": "http://broadcast.radiokantipur.com:7248/stream/"
+  },
+  {
+    "name": "Mithalanchal FM",
+    "stream": "http://live.itechnepal.com:8640/stream?type=.mp3&error=ok"
+  },
+  {
+    "name": "Bhorukawa - FM",
+    "stream": "http://live.itechnepal.com:8374/stream?type=.mp3&error=ok"
+  },
+  {
+    "name": "Bhojpuriya- FM",
+    "stream": "http://streaming.softnep.net:8143/;stream.nsv&type=mp3&volume=60&error=ok"
+  },
+  {
+    "name": "Kalika- FM",
+    "stream": "http://kalika-stream.softnep.com:7740/;&error=ok"
+  },
+  {
+    "name": "Hits - FM",
+    "stream": "http://198.27.83.198:5098/stream&error=ok"
+  },
+  {
+    "name": "Syangja FM",
+    "stream": "http://live.itechnepal.com:8886/stream?type=.mp3&error=ok"
+  },
+  {
+    "name": "BBC World Service",
+    "stream": "http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk"
+  }
+]

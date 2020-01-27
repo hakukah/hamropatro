@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".activityCardDetails.view.CardDetailsActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter your Social Detai's" />
+
+        <ImageView
+            android:id="@+id/work"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_account_balance_black_24dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/companyUrlInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Organization">
+
+            <EditText
+                android:id="@+id/Organization"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Organization" />
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/designation"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_person_pin_black_24dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/designationInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Designation">
+
+            <EditText
+                android:id="@+id/Designation"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Designation" />
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@mipmap/facebook" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/facebookUrlInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Facebook URL">
+
+            <EditText
+                android:id="@+id/facebookurl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Facebook URL" />
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/linkden"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@mipmap/linkden" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Linkden URL">
+
+            <EditText
+                android:id="@+id/linkdenUrl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Linkden URL" />
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/google"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@mipmap/twitter" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="Twitter URL">
+
+            <EditText
+                android:id="@+id/twitterUrl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Twitter URL" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:text="Save" />
+
+    </LinearLayout>
+</ScrollView>

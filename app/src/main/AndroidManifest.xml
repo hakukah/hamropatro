@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nextnepal.nextNepalPatro">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+
+    <application
+        android:name=".util.di.App"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name_beta"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".introActivity.view.IntroActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activityLive.view.LiveActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".activityCardDetails.view.CardDetailsActivity"
+            android:parentActivityName=".activityCardSharing.CardSharingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activityCardSharing.CardSharingActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".profile.view.ProfileActivity"
+            android:label="Profile"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activityLiveStream.view.LiveStreamActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <service android:name=".activityRadio.RadioService" />
+
+        <activity
+            android:name=".activityRadio.view.RadioActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activityYoutube.YoutubeActivity" />
+        <activity
+            android:name=".activityNews.view.NewsExploreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activityForex.view.ForexActivity"
+            android:label="Forex"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activitySignUp.view.AddressSignUpActivity" />
+        <activity android:name=".activitySignUp.view.BasicSignUpActivity" />
+        <activity android:name=".activitySignUp.view.EmailSignUpActivity" />
+        <activity android:name=".activitySignUp.view.SignUpLauncher" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".activityLogin.view.LoginActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".activityNews.view.NewsPortalActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="NewsActivityApp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activityRashifal.view.RashifalActivity"
+            android:label="Rashifal"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name_beta"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".calendar.view.CalendarActivity"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="android.support.v4.media.session.MediaButtonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "369915965436",
+    "firebase_url": "https://nextnepal-4af19.firebaseio.com",
+    "project_id": "nextnepal-4af19",
+    "storage_bucket": "nextnepal-4af19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369915965436:android:6ead79279a48d6e1",
+        "android_client_info": {
+          "package_name": "com.nextnepal.nextNepalPatro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369915965436-dbqv453nkbso9a18kr2r5u1a0ed3h5p4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nextnepal.nextNepalPatro",
+            "certificate_hash": "363e8e45538f3415f0300d1000f7485a15327072"
+          }
+        },
+        {
+          "client_id": "369915965436-f5ke8ihsum6fdgf0s633p32qcvjhkh06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLASh7edVU9dDR2pFXmEXYWAeAVUbjJSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369915965436-f5ke8ihsum6fdgf0s633p32qcvjhkh06.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
