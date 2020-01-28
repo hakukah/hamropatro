@@ -44,7 +44,6 @@ import com.nextnepal.nextNepalPatro.activityMain.View.adapter.MainActivityNewsAd
 import com.nextnepal.nextNepalPatro.activityMain.contract.MainActivityContract;
 import com.nextnepal.nextNepalPatro.activityMain.model.dto.MenuDto;
 import com.nextnepal.nextNepalPatro.activityNews.contract.NewsContract;
-import com.nextnepal.nextNepalPatro.activityNews.model.dto.DataEntity;
 import com.nextnepal.nextNepalPatro.activityNews.model.entity.Data;
 import com.nextnepal.nextNepalPatro.activityNews.view.NewsPortalActivity;
 import com.nextnepal.nextNepalPatro.activityNews.view.adapter.NewsAdapter;
@@ -72,8 +71,6 @@ import butterknife.OnClick;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 import static com.nextnepal.nextNepalPatro.util.values.CONST.CONST.CURRENT_DAY;
-import static com.nextnepal.nextNepalPatro.util.values.CONST.CONST.CURRENT_MONTH;
-import static com.nextnepal.nextNepalPatro.util.values.CONST.CONST.CURRENT_YEAR;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
@@ -538,9 +535,9 @@ public class MainActivity extends AppCompatActivity
         MenuDto menuDto;
         menuDto = new MenuDto(BitmapFactory.decodeResource(getApplicationContext().getResources(), R.drawable.ic_live_tv_black_24dp), "name");
         menuDtoList.add(menuDto);
-        menuDto = new MenuDto(BitmapFactory.decodeResource(getApplicationContext().getResources(), R.drawable.ic_radio_black_24dp), "name");
+        menuDto = new MenuDto(BitmapFactory.decodeResource(getApplicationContext().getResources(), R.drawable.ic_radio_white_24dp), "name");
         menuDtoList.add(menuDto);
-        menuDto = new MenuDto(BitmapFactory.decodeResource(getApplicationContext().getResources(), R.drawable.ic_star_black_24dp), "name");
+        menuDto = new MenuDto(BitmapFactory.decodeResource(getApplicationContext().getResources(), R.drawable.ic_star_white_24dp), "name");
         menuDtoList.add(menuDto);
         menuDto = new MenuDto(BitmapFactory.decodeResource(getApplicationContext().getResources(), R.drawable.ic_monetization_on_black_24dp), "name");
         menuDtoList.add(menuDto);

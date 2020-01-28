@@ -16,9 +16,6 @@
     <string name="facebook_app_id">389780855134604</string>
     <!--<string name="default_web_client_id">318271594910-02cpf8upq8h4lm5ae1l3f27p21fs380s.apps.googleusercontent.com</string>-->
     <string name="large_text">
-
-        "Material is the metaphor.\n\n"
-
         "A material metaphor is the unifying theory of a rationalized space and a system of motion."
         "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
         "technologically advanced and open to imagination and magic.\n"
@@ -123,5 +120,10 @@
     <string name="generic_no_internet_title">No Internet try again</string>
     <string name="generic_no_internet_desc">No internet try again</string>
     <string name="this_week">यो हप्ता</string>
+    <string name="horoscope">Horoscope</string>
+    <string name="radio">Radio</string>
+    <string name="video">Video</string>
+    <string name="forex">Forex</string>
+    <string name="tv">TV</string>
 
 </resources>

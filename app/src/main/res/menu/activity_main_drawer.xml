@@ -11,23 +11,23 @@
             android:title="Login" />
         <item
             android:id="@+id/nav_rashifal"
-            android:icon="@drawable/ic_star_black_24dp"
+            android:icon="@drawable/ic_star_white_24dp"
             android:title="Rashifal" />
         <item
             android:id="@+id/nav_radio"
-            android:icon="@drawable/ic_radio_black_24dp"
+            android:icon="@drawable/ic_radio_white_24dp"
             android:title="Radio" />
         <item
             android:id="@+id/nav_videos"
-            android:icon="@drawable/ic_music_video_black_24dp"
+            android:icon="@drawable/ic_music_video_white_24dp"
             android:title="Videos" />
         <item
             android:id="@+id/nav_forex"
-            android:icon="@drawable/currency"
+            android:icon="@drawable/currency_white"
             android:title="Forex" />
         <item
             android:id="@+id/nav_tv"
-            android:icon="@drawable/ic_music_video_black_24dp"
+            android:icon="@drawable/ic_music_video_white_24dp"
             android:title="TV" />
     </group>
 

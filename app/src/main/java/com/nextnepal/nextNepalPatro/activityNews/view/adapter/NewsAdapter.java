@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.BinderThread;
 import android.support.annotation.NonNull;
+import android.support.constraint.ConstraintLayout;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -89,7 +90,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
     class ViewHolder extends RecyclerView.ViewHolder {
 
         @BindView(R.id.relative)
-        RelativeLayout relativeLayout;
+        ConstraintLayout relativeLayout;
 
         @BindView(R.id.newsPaper_id)
         TextView newsPaperId_v;
