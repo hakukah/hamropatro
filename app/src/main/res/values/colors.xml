@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorAccent">#435761</color>
+    <color name="colorAccent">#FFFFFF</color>
     <color name="colorPrimary">#c62828</color>
     <color name="colorPrimaryLight">#ff5f52</color>
     <color name="colorPrimaryDark">#8e0000</color>
-    <color name="colorSecondary">#455a64</color>
-    <color name="colorSecondaryLight">#718792</color>
-    <color name="colorSecondaryDark">#1c313a</color>
+    <color name="colorSecondary">#aed581</color>
+    <color name="colorSecondaryLight">#e1ffb1</color>
+    <color name="colorSecondaryDark">#7da453</color>
     <color name="colorPrimaryText">#ffffff</color>
     <color name="colorSecondaryText">#ffffff</color>
     <color name="colorCardBackground">#f3f2f3</color>
@@ -16,8 +16,19 @@
     <color name="grey500">#9e9e9e</color>
     <color name="grey200">#b0b3c5</color>
     <color name="grey100">#a0a0a0</color>
+    <color name="greylight">#2B2B2B</color>
     <color name="white">#fff</color>
     <color name="reda700">#D50000</color>
     <color name="grey50">#fafafa</color>
     <color name="yellowtop">#E6E61D</color>
+    <color name="bluegreen">#00bfa5</color>
+    <color name="blue">#2E93E4</color>
+    <color name="lightblue">#5DAAEE</color>
+    <color name="darkblue">#1B5DA3</color>
+    <color name="orange">#F0981E</color>
+    <color name="green">#449947</color>
+
+
+
+
 </resources>

@@ -8,11 +8,14 @@
     tools:context=".activityForex.view.ForexActivity">
 
     <TextView
-        android:layout_marginLeft="10dp"
         android:id="@+id/currency"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/raleway_medium"
+        android:padding="10sp"
         android:text="Currency"
+        android:textColor="@color/blue"
         android:textSize="18sp" />
 
     <TextView
@@ -21,17 +24,23 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_marginLeft="5dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="15dp"
+        android:padding="10sp"
         android:text="Buy"
+        android:textColor="@color/reda700"
+        android:fontFamily="@font/raleway_medium"
         android:textSize="18sp" />
 
     <TextView
         android:id="@+id/sell"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="55dp"
+        android:layout_marginRight="20dp"
         android:layout_toLeftOf="@id/buy"
-        android:text="sell"
+        android:padding="10sp"
+        android:fontFamily="@font/raleway_medium"
+        android:text="Sell"
+        android:textColor="@color/green"
         android:textSize="18sp" />
 
     <android.support.v7.widget.RecyclerView

@@ -72,7 +72,7 @@ public class MonthlyRashifalFragment extends Fragment implements MonthlyRashifal
 
     @Override
     public void setDate(String date) {
-        if (date != null) {
+        if (date != null && dateDisplay_v!=null) {
             dateDisplay_v.setText(date);
         }
     }
