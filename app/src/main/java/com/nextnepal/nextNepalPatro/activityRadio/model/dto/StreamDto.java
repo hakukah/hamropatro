@@ -1,17 +1,19 @@
 package com.nextnepal.nextNepalPatro.activityRadio.model.dto;
 
-import android.graphics.Bitmap;
-
 import com.google.gson.annotations.SerializedName;
 
 public class StreamDto {
     private String name;
     private String slogan;
-    private Bitmap icon;
+    private String iconurl;
+    private String frequency;
 
 
     @SerializedName("stream")
     private String url;
+
+    public StreamDto() {
+    }
 
     public String getName() {
         return name;
@@ -37,11 +39,11 @@ public class StreamDto {
         this.slogan = slogan;
     }
 
-    public Bitmap getIcon() {
-        return icon;
-    }
+    public String getIcon() { return iconurl; }
 
-    public void setIcon(Bitmap icon) {
-        this.icon = icon;
-    }
+    public void setIcon(String icon) { this.iconurl = icon; }
+
+    public String getFrequency() { return frequency; }
+
+    public void setFrequency(String frequency) { this.frequency = frequency; }
 }

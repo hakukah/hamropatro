@@ -7,10 +7,11 @@
     tools:context=".activityLogin.view.LoginActivity">
 
     <ImageView
+        android:id="@+id/backgroundimage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="fitXY"
         android:alpha="0.75"
+        android:scaleType="centerCrop"
         android:src="@drawable/background" />
 
     <ImageView
@@ -21,33 +22,24 @@
         android:layout_marginTop="50dp"
         android:src="@mipmap/app_icon" />
 
-    <TextView
-        android:id="@+id/login_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/logo"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="10dp"
-        android:layout_marginTop="5dp"
-        android:text="Login to Everest Patro"
-        android:textAppearance="@style/TextAppearance.AppCompat.Title"
-        android:textColor="@color/black" />
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/username_textlayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/login_label"
-        android:layout_margin="10dp"
+        android:layout_below="@id/logo"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_border_color"
         android:theme="@style/TextLabel">
 
         <EditText
             android:id="@+id/username_editext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
             android:hint="Username"
+            android:inputType="text"
             android:textColor="@color/white"
             android:textColorHint="@color/white" />
     </android.support.design.widget.TextInputLayout>
@@ -57,21 +49,23 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/username_textlayout"
-        android:layout_margin="10dp"
+        android:background="@drawable/edittext_border_color"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
         app:passwordToggleEnabled="true">
 
         <EditText
             android:id="@+id/password_editext"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
             android:hint="Password"
-            android:inputType="textPassword"
+            android:inputType="textNoSuggestions|textPassword"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
             android:theme="@style/TextLabel" />
     </android.support.design.widget.TextInputLayout>
+
 
     <Button
         android:id="@+id/login_button"
@@ -80,8 +74,9 @@
         android:layout_below="@id/password_textlayout"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
-        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="10dp"
         android:background="@drawable/border_button"
+        android:backgroundTint="@color/colorPrimary"
         android:text="Login"
         android:textColor="@color/white" />
 
@@ -112,9 +107,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/or_label"
         android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
         android:layout_marginRight="50dp"
-        android:backgroundTint="@color/colorPrimary"
         android:background="@drawable/border_button"
+        android:backgroundTint="@color/colorPrimary"
         android:text="Sign Up"
         android:textColor="@color/white" />
 

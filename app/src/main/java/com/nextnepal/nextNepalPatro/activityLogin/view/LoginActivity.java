@@ -21,6 +21,7 @@ import com.nextnepal.nextNepalPatro.activityCardSharing.CardSharingActivity;
 import com.nextnepal.nextNepalPatro.activityLogin.contract.LoginActivityContract;
 import com.nextnepal.nextNepalPatro.activityLogin.presenter.LoginActivityPresenter;
 import com.nextnepal.nextNepalPatro.R;
+import com.nextnepal.nextNepalPatro.activitySignUp.view.BasicSignUpActivity;
 import com.nextnepal.nextNepalPatro.activitySignUp.view.SignUpLauncher;
 import com.nextnepal.nextNepalPatro.util.di.App;
 import com.nextnepal.nextNepalPatro.util.values.CONST.CONST;
@@ -88,7 +89,7 @@ public class LoginActivity extends AppCompatActivity implements LoginActivityCon
         signUpButton_v.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(LoginActivity.this, SignUpLauncher.class));
+                startActivity(new Intent(LoginActivity.this, BasicSignUpActivity.class));
             }
         });
     }
